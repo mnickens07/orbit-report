@@ -23,6 +23,12 @@ export class Satellite {
         }
         
     }
-    
+    zebraStripesOrg(){
+        if (this.name==="Sirius 1" || this.name==="SNAP 10-A" || this.name==="Envisat" || this.name.includes("Morelos") || this.name==="ISS"){
+            return true;
+        } else {
+            return false;
+        }
+    }
         
 }
